@@ -1,0 +1,186 @@
+body {
+  background-color: blanchedalmond;
+}
+
+* {
+  /* font-family:'Square Peg'; */
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 60px;
+  color: white;
+}
+
+.main-h {
+  color: white;
+  position: absolute;
+  left: 78px;
+  font-size: 1.9rem;
+  padding: 12px;
+  font-style: italic;
+  text-shadow: 4px 3px saddlebrown;
+
+}
+
+/* .logo img { 
+  width: 50px;
+  padding: 0 8px; */
+/* } */
+.logo {
+  position: absolute;
+  left: 5px;
+  width: 71px;
+  border-radius: 18px;
+}
+
+/* nav ul li {
+  padding: 0 20px;
+  color: white;
+} */
+nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  padding: 27px 30px;
+  font-size: 1.4rem;
+  font-weight: bold;
+
+}
+
+nav ul li a:hover {
+  background-color: rgb(240, 6, 53);
+  text-decoration: underline;
+  /* color: brown; */
+}
+
+.search {
+  position: absolute;
+  right: 135px;
+  padding: 17px;
+  font-style: italic;
+  color: white;
+}
+
+.search input {
+  margin: 8px;
+}
+
+.btn {
+  position: absolute;
+  right: 9px;
+  top: 10px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 21px;
+  border: 3px solid grey;
+  background-color:thistle;
+  /* box-sizing: border-box; */
+}
+.btn:hover{
+  cursor: pointer;
+  background-color:crimson;
+  text-decoration: underline;
+}
+.item{
+  text-align: center center;
+  margin: 12px;
+}
+.btn img {
+  width: 34px;
+}
+.main{
+  font-style: italic;
+  font-weight: bolder;
+  color: rgb(246, 151, 9);
+}
+.container {
+  min-height: 71vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 60%;
+  margin: 25px auto;
+  padding: 35px;
+  background: url('./covers/main-bg.jpg');
+  background-size: 946px 503px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.bottom {
+  position: sticky;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  color: white;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 15px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+#Progressbar {
+  width: 98vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+.songitemcontainer {
+  margin-top: 74px;
+
+}
+
+.songItem {
+  height: 50px;
+  display: flex;
+  color: black;
+  background-color: rgb(233, 210, 176);
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+.songItem:hover{
+  background-color:rgba(128, 128, 128, 0.555);
+  cursor: pointer;
+}
+
+.songItem img {
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 34px;
+
+}
+
+.timestamp {
+  margin: 0 23px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User SignUP</title>
+    <style>
+        *{
+            margin:30x;
+            padding:0px;
+        }
+        body{
+            background-color: black;
+            color: aqua;
+        }
+        h1{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: brown;
+        }
+        h2{
+            text-align: left;
+            color: red;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SignUP</h1>
+    <form action="">
+       
+    <h2>Please fill the details</h2>
+    <i><h6 style="color: chartreuse;">Required fields are followed by *</h6></i>
+    <hr>
+    <p>Name *<input type="text" name="name" id="name" required></p>
+    <fieldset>
+        <legend>Gender</legend>
+      <p>
+          Male<input type="radio" name="gender" id="male">
+          Female<input type="radio" name="gender" id="female">
+        </p>
+      
+
+    </fieldset>
+    <p>Phone no. *<input type="number" name="phoneno" id="phoneno" required></p>
+    <p>Email *<input type="email" class="email" id="email" required></p>
+    <p>Create Password *<input type="password" name="password" id="password" required></p>
+    <p>Confirm Password *<input type="password" name="password" id="password" required></p>
+    <p>
+        Songs Type--<input type="checkbox"  name="song_type1" id="song_type1" value="Hindi">
+        <label for="song_type1">Hindi Songs</label>
+        <input type="checkbox"  name="song_type2" id="song_type2" value="English">
+        <label for="song_type2">English Songs</label>
+        <input type="checkbox"  name="song_type3" id="song_type3" value="Podcasts">
+        <label for="song_type3">Podcasts</label>
+        
+
+    
+    </p>
+    <p><input type="submit"></p>
+    </form>
+</body>
+</html>
